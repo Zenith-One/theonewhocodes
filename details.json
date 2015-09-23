@@ -1,0 +1,47 @@
+{
+    "uid": "theonewhocodes-theme",
+    "name": "The One Who Codes (Theme)",
+    "description": "The theme for theonewho.codes",
+    "version": "0.1.0",
+  	"pb_version": "0.4.1",
+	"author": {
+		"name": "Craig Burton",
+		"email": "craig@theonewho.codes",
+		"website": "http://theonewho.codes"
+	},
+	"settings": [{
+	  "name": "header_tagline",
+	  "value": ""
+	}, {
+	  "name": "homepage_seo_keywords",
+	  "value": ""
+	}, {
+	  "name": "homepage_seo_description",
+	  "value": ""
+	}, {
+	  "name": "author_linkedin_url",
+	  "value": ""
+	}, {
+	  "name": "author_stackoverflow_url",
+	  "value": ""
+	}, {
+	  "name": "author_github_url",
+	  "value": ""
+	}],
+	"permissions": {
+		"ACCESS_USER": [],
+		"ACCESS_WRITER": [],
+		"ACCESS_EDITOR": [],
+		"ACCESS_MANAGING_EDITOR": []
+	},
+	"main_module": {
+		"path": "theonewhocodes.js"
+	},
+	"dependencies": {
+	  "figlet": "1.1.1"
+  },
+	"theme": {
+		"settings": [],
+		"content_templates": []
+	}
+}
