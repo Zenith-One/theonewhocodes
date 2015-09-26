@@ -42,32 +42,32 @@ module.exports = function TheOneWhoCodesModule(pb) {
     TheOneWhoCodes.onStartup = function(cb) {
         pb.TemplateService.registerGlobal('header_tagline', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('header_tagline', 'coderblog-theme', cb);
+          pluginService.getSetting('header_tagline', 'theonewhocodes', cb);
         });
 
         pb.TemplateService.registerGlobal('homepage_seo_keywords', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('homepage_seo_keywords', 'coderblog-theme', cb);
+          pluginService.getSetting('homepage_seo_keywords', 'theonewhocodes', cb);
         });
 
         pb.TemplateService.registerGlobal('homepage_seo_description', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('homepage_seo_description', 'coderblog-theme', cb);
+          pluginService.getSetting('homepage_seo_description', 'theonewhocodes', cb);
         });
 
         pb.TemplateService.registerGlobal('author_linkedin_url', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('author_linkedin_url', 'coderblog-theme', cb);
+          pluginService.getSetting('author_linkedin_url', 'theonewhocodes', cb);
         });
 
         pb.TemplateService.registerGlobal('author_stackoverflow_url', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('author_stackoverflow_url', 'coderblog-theme', cb);
+          pluginService.getSetting('author_stackoverflow_url', 'theonewhocodes', cb);
         });
 
         pb.TemplateService.registerGlobal('author_github_url', function(flag, cb) {
           var pluginService = new pb.PluginService();
-          pluginService.getSetting('author_github_url', 'coderblog-theme', cb);
+          pluginService.getSetting('author_github_url', 'theonewhocodes', cb);
         });
 
         cb(null, true);
