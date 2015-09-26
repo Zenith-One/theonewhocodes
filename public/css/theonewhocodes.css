@@ -117,7 +117,7 @@ pre code {
 }
 
 .jumbotron {
-    background: #176781; /*url('/public/coderblog-theme/img/header-background.jpg') no-repeat;
+    background: #0F4B54; /*url('/public/coderblog-theme/img/header-background.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,6 +125,14 @@ pre code {
     color: #fff;
     /*padding-left: 15%;*/
     text-align: center;
+}
+
+.jumbotron .equals {
+  color: #BD7F25;
+}
+
+.jumbotron .func {
+  color: #6558D6;
 }
 
 .jumbotron a,

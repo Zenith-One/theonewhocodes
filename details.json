@@ -10,9 +10,6 @@
 		"website": "http://theonewho.codes"
 	},
 	"settings": [{
-	  "name": "header_tagline",
-	  "value": ""
-	}, {
 	  "name": "homepage_seo_keywords",
 	  "value": ""
 	}, {
@@ -20,9 +17,6 @@
 	  "value": ""
 	}, {
 	  "name": "author_linkedin_url",
-	  "value": ""
-	}, {
-	  "name": "author_stackoverflow_url",
 	  "value": ""
 	}, {
 	  "name": "author_github_url",
@@ -38,7 +32,7 @@
 		"path": "theonewhocodes.js"
 	},
 	"dependencies": {
-	  "figlet": "1.1.1"
+	  "async": "0.9.0"
   },
 	"theme": {
 		"settings": [],
