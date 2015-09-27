@@ -135,6 +135,10 @@ pre code {
   color: #6558D6;
 }
 
+.jumbotron h1 {
+  text-transform: none;
+}
+
 .jumbotron a,
 .jumbotron a:hover,
 .jumbotron a:visited,
@@ -142,8 +146,8 @@ pre code {
 .jumbotron a:active {
     color: #e8e8e8;
     text-decoration: none;
-    font-weight: 900;
-    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-family: "Source Code Pro", sans-serif;
 }
 
 .jumbotron h4 {
