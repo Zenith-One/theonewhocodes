@@ -40,7 +40,7 @@ h1 {
     font-weight: 800;
     font-size: 32px;
     color: #585a5b;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 h2, h2 a {
@@ -48,7 +48,7 @@ h2, h2 a {
     font-weight: 600 !important;
     font-size: 26px;
     color: #585a5b;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 h3 {
@@ -74,7 +74,7 @@ a:hover, a:active, a:focus {
 
 .timestamp, .comments, .tag-label {
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -284,7 +284,7 @@ div.author {
 
 .author .name {
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     font-size: 1.2em;
 }
@@ -326,7 +326,7 @@ a.github {
 
 .article_topics {
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     margin-bottom: 20px;
     color: #585a5b;
@@ -411,7 +411,7 @@ a.at-share-btn:hover {
 
 .share-title {
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     color: #585a5b;
 }
