@@ -308,6 +308,16 @@ div.author {
     margin-right: 13px;
 }
 
+.article .link-list {
+  list-style: none;
+}
+
+.article .link-list a,
+.article .link-list a:hover,
+.article .link-list a:active {
+  border-bottom: none;
+}
+
 .author .social-links a:hover {
     opacity: 0.6;
 }
