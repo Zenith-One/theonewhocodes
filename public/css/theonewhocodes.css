@@ -313,6 +313,26 @@ div.author {
   padding: 0;
 }
 
+.topNav li {
+    float: left;
+    padding: 0px 20px;
+    border-left: 1px solid;
+    display: block;
+    /* height: 1em; */
+}
+
+li.active a, li.active a:hover {
+    /* text-decoration: underline; */
+}
+
+.topNav li:first-child {
+    border-left: none;
+}
+
+li.active {
+    border-bottom:;
+}
+
 .article .link-list a,
 .article .link-list a:hover,
 .article .link-list a:active {
