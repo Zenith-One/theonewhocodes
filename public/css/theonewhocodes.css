@@ -125,6 +125,7 @@ pre code {
     color: #fff;
     /*padding-left: 15%;*/
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .jumbotron .equals {
@@ -313,6 +314,12 @@ div.author {
   padding: 0;
 }
 
+.topNav {
+  margin: 20px auto 0 auto;
+  display: inline-block;
+  font-size: 1.6em;
+}
+
 .topNav li {
     float: left;
     padding: 0px 20px;
@@ -322,15 +329,11 @@ div.author {
 }
 
 li.active a, li.active a:hover {
-    /* text-decoration: underline; */
+  font-weight: bold;
 }
 
 .topNav li:first-child {
     border-left: none;
-}
-
-li.active {
-    border-bottom:;
 }
 
 .article .link-list a,
