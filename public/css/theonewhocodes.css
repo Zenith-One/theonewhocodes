@@ -310,6 +310,7 @@ div.author {
 
 .article .link-list {
   list-style: none;
+  padding: 0;
 }
 
 .article .link-list a,
