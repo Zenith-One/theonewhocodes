@@ -115,6 +115,7 @@ module.exports = function(pb) {
     PageViewController.prototype.render = function(cb) {
         var self    = this;
         var custUrl = this.pathVars.customUrl;
+        console.log('THE PATHVARS', this.pathVars);
 
         //attempt to load object
         var opts = {

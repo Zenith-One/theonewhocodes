@@ -19,8 +19,14 @@
 	  "name": "author_linkedin_url",
 	  "value": ""
 	}, {
+	  "name": "author_twitter_url",
+	  "value": ""
+	}, {
 	  "name": "author_github_url",
 	  "value": ""
+	}, {
+	  "name": "about_page_custom_url",
+	  "value": "about"
 	}],
 	"permissions": {
 		"ACCESS_USER": [],

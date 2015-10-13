@@ -60,6 +60,11 @@ module.exports = function TheOneWhoCodesModule(pb) {
           pluginService.getSetting('author_linkedin_url', 'theonewhocodes', cb);
         });
 
+        pb.TemplateService.registerGlobal('author_twitter_url', function(flag, cb) {
+          var pluginService = new pb.PluginService();
+          pluginService.getSetting('author_twitter_url', 'theonewhocodes', cb);
+        });
+
         pb.TemplateService.registerGlobal('author_stackoverflow_url', function(flag, cb) {
           var pluginService = new pb.PluginService();
           pluginService.getSetting('author_stackoverflow_url', 'theonewhocodes', cb);
