@@ -203,6 +203,14 @@ footer a, footer a:hover, footer a:focus, footer a:active, footer a:visited {
     font-weight: 700;
 }
 
+.copyright a,
+.copyright a:hover,
+.copyright a:focus,
+.copyright a:active,
+.copyright a:visited{
+  border-bottom: 1px solid #e8e8e8;
+}
+
 .footer-links {
     margin-bottom: 10px;
 }
