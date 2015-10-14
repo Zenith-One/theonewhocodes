@@ -132,7 +132,7 @@ pre code {
   color: #BD7F25;
 }
 
-.jumbotron .func {
+.func {
   color: #6558D6;
 }
 
@@ -342,6 +342,15 @@ li.active a, li.active a:hover {
   border-bottom: none;
 }
 
+.gist .gist-file{
+  margin-bottom: 0 !important;
+}
+
+figure {
+  margin-bottom: 1em;
+}
+
+
 .author .social-links a:hover {
     opacity: 0.6;
 }
@@ -478,4 +487,8 @@ blockquote:after {
     content:"\f10e";
     color: #585a5b;
     padding-left: 12px;
+}
+
+section {
+  margin-bottom: 25px;
 }
