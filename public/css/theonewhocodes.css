@@ -125,7 +125,8 @@ pre code {
     color: #fff;
     /*padding-left: 15%;*/
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
+    margin-bottom: 0;
 }
 
 .jumbotron .equals {
@@ -141,19 +142,43 @@ pre code {
 }
 
 .jumbotron a,
-.jumbotron a:hover,
 .jumbotron a:visited,
-.jumbotron a:focus,
-.jumbotron a:active {
-    color: #e8e8e8;
+.jumbotron a:active,
+.navigation a,
+.navigation a:visited,
+.navigation a:active {
+    color: #b8b8b8;
     text-decoration: none;
     font-weight: 400;
     font-family: "Source Code Pro", sans-serif;
 }
 
+.jumbotron a:hover,
+.jumbotron a:focus,
+.navigation a:hover,
+.navigation a:focus {
+  color: #ffffff;
+}
+
+.jumbotron h1 a,
+.jumbotron h1 a:visited,
+.jumbotron h1 a:active {
+  color: #e8e8e8;
+}
+
 .jumbotron h4 {
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 0 4px;
+    height: auto;
+    background-color: #064345;
+    color: #fff;
 }
 
 .article-head.jumbotron {
@@ -323,7 +348,7 @@ div.author {
 }
 
 .topNav {
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
   display: inline-block;
   font-size: 1.6em;
 }
@@ -336,8 +361,10 @@ div.author {
     /* height: 1em; */
 }
 
-li.active a, li.active a:hover {
+.topNav li.active a,
+.topNav li.active a:hover {
   font-weight: bold;
+  color: #ffffff;
 }
 
 .topNav li:first-child {
